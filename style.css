@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap");
+
+html,
+body,
+p {
+  margin: 0;
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #4f4f4f;
+  font-family: Inconsolata, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.sh {
+  width: 50%;
+  min-width: 400px;
+  height: 300px;
+
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.sh-dark {
+  background-color: #171717;
+  color: #fff;
+  box-shadow: 10px 10px 3px #171717d1;
+}
+
+.sh-hd {
+  height: 30px;
+  position: relative;
+}
+
+.sh-icon {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 12px;
+  cursor: pointer;
+}
+
+.sh-icon:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sh-bd {
+  padding: 10px;
+  font-family: Inconsolata, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+.line {
+  line-height: 1.5;
+}
+
+.result {
+  color: #90a57d;
+}
